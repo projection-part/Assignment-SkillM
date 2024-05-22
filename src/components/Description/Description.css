@@ -1,0 +1,161 @@
+/* .desc{
+    border: 1px solid red;
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+.initiative-tag {
+    width: 28%;
+    border: 1px solid #FFA50B;
+    margin-top: 80px;
+    margin-left: 150px;
+    padding: 20px 35px;
+    border-radius: 15px;
+}
+
+.tag-line {
+    color: #565658;
+}
+
+.iit-d {
+    color: #3b3b3e;
+}
+
+.desc {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 75px;
+    margin: 10px 150px;
+    width: 80%;
+}
+
+.L1 {
+    color: #595961;
+}
+.L2 {
+    color: #992E9D;
+}
+.L3 {
+    color: #666666;
+    padding: 0;
+    margin: 0;
+}
+.L4 {
+    color: #434347;
+}
+
+.courses {
+    font-family: poppins;
+    margin: 10px 150px;
+    width: 80%;
+}
+
+.btn{
+    font-family: poppins;
+    font-weight: bold;
+    margin: 10px;
+    color: #BB5302;
+    background-color: #FFF4C5;
+}
+
+.buy-btn {
+    font-family: poppins;
+    margin: 10px 150px;
+    width: 80%;
+}
+.buy-btn .btn {
+    padding: 25px 60px;
+    font-size: 18px;
+    color: white;
+    background-color: #992E9D;
+}
+.buy-btn .btn-more {
+    padding: 25px 60px;
+    font-size: 18px;
+    color: #992E9D;
+    background-color: white;
+}
+
+.edu-hub {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.clsd-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9EBFC;
+}
+
+.course-box {
+    display: flex;
+    padding: 30px;
+}
+
+
+
+.courses-box, .learners-box, .doubt-box, .project-box {
+    display: flex;
+    padding: 30px;
+}
+
+.crs-box {
+    padding-top: 20px;
+}
+
+.faChalkboard,.faUserGraduate {
+    font-size: 60px;
+    color: #B73BBE;
+}
+
+.crs-count {
+    color: #B73BBE;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.crs-name {
+    font-size: 20px;
+    color: #686972;
+}
+
+
+
+/* responsove start */
+
+@media (max-width: 768px) {
+    
+    .tag {
+        width: 100%;
+    }
+    .initiative-tag {
+        width: 100%;
+    }
+  
+    .desc {
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .courses {
+        font-family: poppins;
+        width: 100%;
+    }
+
+    .clsd-box {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+/* responsove ends */

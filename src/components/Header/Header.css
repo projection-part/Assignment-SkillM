@@ -1,0 +1,125 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .navbar {
+    height: 96pxpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    padding: 24px 128px 24px 128px;
+    border: 0px 0px 1px 0px;
+  }
+  
+  .logo {
+    font-size: 15px;
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-family: Poppins;
+    
+  }
+
+  .nav-links .signup {
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+    background-color: #992E9D;
+  }
+  
+  .login {
+    color: #B73BBE;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 13px 23px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .signup {
+    color: white;
+  }
+  
+  /* Default button */
+  .btn {
+    background-color: #B73BBE;
+    color: #ffffff;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    
+  .navbar {
+    height: 1000pxpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    padding: 24px 15px 24px 15px;
+    border: 0px 0px 1px 0px;
+    border: 1px solid red;
+    width: 100%;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+  }  
+  }
+  
+  
+  .alumnibar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 128px 15px 128px;
+    background-color: #3B3B3E;
+  }
+
+  .alumni-link{
+    display: flex;
+  }
+
+  .alumnibar li {
+    list-style: none;
+    margin: 0px 10px;
+  }
+
+  .alumnibar li a {
+    text-decoration: none;
+    color: #b1abab;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .alumnibar li a.active {
+    color: #dad8d8;
+    padding: 15px 5px;
+    border-bottom: 3px solid #FFA50B;
+    border-radius: 1px 1px 1px 1px;
+    
+  }
